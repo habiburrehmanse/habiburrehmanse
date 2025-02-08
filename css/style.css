@@ -1828,4 +1828,138 @@ img.logo {
     max-width: 204px;
     margin-top: -72px;
 }
- 
+a.booking {
+    background: #2a5e5a !important;
+    border-radius: 5px;
+    margin: 6px;
+}
+.booking {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #007bff; /* Change color if needed */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s ease-in-out;
+}
+
+.booking:hover {
+    background-color: #0056b3;
+    text-decoration: none;
+}
+.expertise-section {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+}
+
+.expertise-box {
+    background: white;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.expertise-box:hover {
+    transform: translateY(-5px);
+}
+
+.expertise-box i {
+    font-size: 40px;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+.section-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.therapy-section {
+    padding: 50px 0;
+    background-color: #ffffff;
+}
+
+.approach-box {
+    background: #f8f9fa;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.approach-box:hover {
+    transform: translateY(-5px);
+}
+
+.approach-box i {
+    font-size: 40px;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+.section-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.intro-text {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Poppins:wght@300;400;600&display=swap');
+
+/* Global Styles */
+body {
+    font-family: 'Inter', 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #222;
+    line-height: 1.8;
+    background-color: #f9f9f9;
+    padding: 1px;
+}
+
+/* Headings */
+h1, h2, h3 {
+    font-weight: 700;
+    color: #111;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Subtle Text Shadows for Extra Clarity */
+h1 {
+    font-size: 2.5rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+/* Paragraphs */
+p {
+    font-size: 18px;
+    color: #444;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.9;
+}
+
+
+
+/* Icons */
+i {
+    font-size: 28px;
+    color: #007bff;
+}
+
