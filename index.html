@@ -15,6 +15,11 @@
 <link href="css/style.css" rel="stylesheet" />
  <!-- Font Awesome CDN -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<!-- Swiper.js CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+<!-- Swiper.js Script -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
 
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 <!--[if lt IE 9]>
@@ -67,7 +72,7 @@
 	<!-- end header -->
 	<section id="featured">
 	 
-	<!-- Slider -->
+	<!-- Slider 
         <div id="main-slider" class="flexslider">
 
             <ul class="slides">
@@ -96,7 +101,46 @@
               </li>
             </ul>
         </div>
-	<!-- end slider -->
+	 -->
+<!-- Swiper Slider Container -->
+<div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+        <!-- Slide 1 -->
+        <div class="swiper-slide">
+            <img src="img/slides/2.webp" alt="">
+            <div class="slide-caption">
+                <h3>Welcome to Revive Mental Therapy.</h3>
+                <p>Empowering minds, Healing souls.</p>
+            </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="swiper-slide">
+            <img src="img/slides/q.webp" alt="">
+            <div class="slide-caption">
+                <h3>Healing starts here</h3>
+                <p>Your journey to wellness begins today.</p>
+            </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="swiper-slide">
+            <img src="img/slides/3.webp" alt="">
+            <div class="slide-caption">
+                <h3>A safe space for your mind.</h3>
+                <p>You are not alone—we’re here to help.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Buttons -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+
+    <!-- Pagination Dots -->
+    <div class="swiper-pagination"></div>
+</div>
+
  
 	</section> 
 		<section id="content">
@@ -452,5 +496,25 @@ Take the first step towards a healthier mind and a brighter future—because you
 <script src="js/animate.js"></script>
 <script src="js/custom.js"></script>
 <script src="js/owl-carousel/owl.carousel.js"></script>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        loop: true, // Infinite loop
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        effect: "fade", // Optional: Smooth fade transition
+        speed: 800,
+    });
+</script>
+
 </body>
 </html>
