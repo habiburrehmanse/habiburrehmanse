@@ -1,465 +1,708 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="webthemez">
-    <title>Revive Mind Therapy</title>
-    <link href="css/styles.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/animate.min.css" rel="stylesheet">
-    <link href="css/prettyPhoto.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/slider-style.css" />
-    <link rel="stylesheet" type="text/css" href="css/slider-custom.css" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta charset="utf-8">
+  <title>Reveal Bootstrap Template</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
-    <script src="js/modernizr.custom.79639.js"></script>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700" rel="stylesheet">
 
-    <link rel="shortcut icon" href="images/ico/ic.ico">
-  
-</head> 
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-<body id="home">
-<header id="header">
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" role="banner">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">
-                <img src="images/logo.png" class="main-logo" alt="logo">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">  <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#services">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#our-team">Our Team</a>
-                    </li>
-                   
-                    <li class="nav-item">
-                        <a class="nav-link" href="#pricing">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact-us">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link book-btn" href="#appointment">Book Appointment</a>
-                    </li>
-                </ul>
-            </div>
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="script.js" defer></script>
+  <!-- =======================================================
+    Theme Name: Reveal
+    Theme URL: https://bootstrapmade.com/reveal-bootstrap-corporate-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
+</head>
+<style>
+        .navbar-nav .nav-item .nav-link.active {
+            font-weight: bold;
+            color: #007bff !important;
+        }
+        .fixed-top {
+            transition: all 0.3s ease-in-out;
+        }
+        .navbar-toggler {
+            transition: transform 0.3s ease-in-out;
+        }
+        .navbar-toggler:active {
+            transform: rotate(90deg);
+        }
+        #intro {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+           display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .intro-content h2 {
+            font-size: 3rem;
+            font-weight: bold;
+            animation: slideIn 1.5s ease-in-out;
+        }
+        @keyframes slideIn {
+            from { transform: translateY(-50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        .btn-get-started, .btn-projects {
+            display: inline-block;
+            margin: 10px;
+            padding: 12px 24px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-size: 1.2rem;
+            transition: all 0.3s ease-in-out;
+        }
+        .btn-get-started {
+            background-color: #007bff;
+            color: white;
+        }
+        .btn-projects {
+            background-color: #28a745;
+            color: white;
+        }
+        .btn-get-started:hover, .btn-projects:hover {
+            transform: scale(1.1);
+        }
+
+   body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f8fb;
+        }
+        .section {
+            padding: 80px 0;
+            background: #ffffff;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            margin-bottom: 50px;
+        }
+        .section-header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        .section-header h2 {
+            font-size: 36px;
+            font-weight: bold;
+            color: #5a5a5a;
+        }
+        .contact-info div {
+            text-align: center;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+        .contact-info div:hover {
+            background: #e3f2fd;
+            transform: scale(1.05);
+        }
+        .contact-info i {
+            font-size: 30px;
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+        .form-control {
+            border-radius: 5px;
+            padding: 12px;
+        }
+        button {
+            background: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        button:hover {
+            background: #0056b3;
+        }
+/* Navbar Styling */
+header {
+    background-color: #f5fdf7 !important; /* Light greenish-white background */
+    border-bottom: 3px solid #4CAF50; /* Green accent border */
+    padding: 10px 0;
+}
+
+/* Navbar Container */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+}
+
+/* Logo Styling */
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand img {
+    height: 60px; /* Adjusted size for better visibility */
+    max-height: 70px;
+    width: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbar-brand img:hover {
+    transform: scale(1.1);
+}
+
+/* Navigation Links */
+.navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-nav .nav-item {
+    margin: 0 12px;
+}
+
+.navbar-nav .nav-link {
+    color: #2E7D32 !important; /* Green theme */
+    font-weight: 600;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+    color: #1B5E20 !important; /* Darker green */
+    text-decoration: underline;
+}
+
+/* Navbar Toggler for Mobile */
+.navbar-toggler {
+    border: none;
+    outline: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+/* Responsive Design */
+@media (max-width: 991px) {
+    .navbar {
+        padding: 10px;
+    }
+
+    .navbar-nav {
+        background: #f5fdf7;
+        padding: 10px;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    .navbar-nav .nav-item {
+        margin: 5px 0;
+    }
+
+    .navbar-brand img {
+        height: 50px; /* Adjust for smaller screens */
+    }
+}
+
+    </style>
+<body id="body">
+
+  <!--==========================
+    Top Bar
+  ============================-->]
+<!-- Top Bar -->
+<section id="topbar" class="bg-light py-2 fixed-top d-none d-md-block" style="top: 0; z-index: 1031;">
+    <div class="container d-flex justify-content-between align-items-center">
+        <div class="contact-info">
+            <i class="fa fa-envelope me-1"></i> 
+            <a href="mailto:info@revivemindtherapy.com" class="text-dark">info@revivemindtherapy.com</a>
+            <span class="mx-3">|</span>
+            <i class="fa fa-phone me-1"></i> 
+            <span class="text-dark">+1 5589 55488 55</span>
+        </div>
+        <div class="social-links">
+            <a href="#" class="text-dark me-2"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" class="text-dark me-2"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="text-dark me-2"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="text-dark me-2"><i class="fa-brands fa-google-plus-g"></i></a>
+            <a href="#" class="text-dark me-2"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </div>
+</section>
+
+<!-- Navbar -->
+<header class="bg-light shadow-sm fixed-top" style="top: 40px; z-index: 1030;">
+    <nav class="navbar navbar-expand-lg navbar-light container">
+        <a class="navbar-brand" href="#body">
+            <img src="img/lo.jpeg" alt="Revive Mind Therapy Logo" height="50">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#body" onclick="closeNavbar()">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about" onclick="closeNavbar()">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="#services" onclick="closeNavbar()">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#expertise" onclick="closeNavbar()">Areas of Expertise</a></li>
+                <li class="nav-item"><a class="nav-link" href="#approach" onclick="closeNavbar()">Our Approach to Therapy</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact" onclick="closeNavbar()">Contact</a></li>
+            </ul>
         </div>
     </nav>
 </header>
 
-
-<style>
-/* Modern Slider Styles */
-.slider-container {
-    width: 100%;
-    height: 500px; /* Adjust height as needed */
-    position: relative;
-    overflow: hidden;
-}
-
-.slide {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    opacity: 0;
-    transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out; /* Smooth transitions */
-    transform: translateX(20px); /* Initially slightly off-screen */
-}
-
-.slide.active {
-    opacity: 1;
-    transform: translateX(0); /* Slide in from the side */
-}
-
-/* Captions */
-.slide-caption {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    text-align: center;
-    z-index: 1; /* Ensure captions are on top */
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent background for better readability */
-    border-radius: 8px; /* Rounded corners */
-    max-width: 800px; /* Adjust as needed */
-}
-
-.slide-caption h2 {
-    font-size: 2.5em; /* Adjust as needed */
-    margin-bottom: 10px;
-    font-weight: 600; /* Slightly bolder font */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add text shadow */
-}
-
-.slide-caption p {
-    font-size: 1.2em;
-    line-height: 1.6; /* Improve readability */
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Add text shadow */
-}
-
-.slide:nth-child(1) { background-image: url('images/2.webp'); }
-.slide:nth-child(2) { background-image: url('images/2.webp'); }
-.slide:nth-child(3) { background-image: url('images/3.webp'); }
-
-/* Navigation arrows (optional) */
-.slider-nav { /* ... (same as before) ... */ }
-
-/* Responsive adjustments (example) */
-@media (max-width: 768px) {
-    .slide-caption h2 {
-        font-size: 2em;
-    }
-
-    .slide-caption p {
-        font-size: 1em;
-    }
-}
-
-</style>
-</head>
-<body>
-
-<div class="slider-container">
-    <div class="slide active">
-        <div class="slide-caption">
-            <h2>Welcome to Revive Mind Therapy</h2>
-            <p>Your journey to inner peace and mental well-being starts here.</p>
-        </div>
-    </div>
-    <div class="slide">
-        <div class="slide-caption">
-            <h2>A safe space for your mind.</h2>
-            <p>You are not alone—we’re here to help.</p>
-        </div>
-    </div>
-    <div class="slide">
-        <div class="slide-caption">
-            <h2>Healing Starts Here</h2>
-            <p>Your journey to wellness begins today.</p>
-        </div>
-    </div>
-
-    <div class="slider-nav">
-        <button onclick="prevSlide()">Prev</button>
-        <button onclick="nextSlide()">Next</button>
-    </div>
-</div>
-
+<!-- JavaScript to Close Navbar on Link Click (Mobile) -->
 <script>
-let currentSlide = 0;
-const slides = document.querySelectorAll('.slide');
-
-function showSlide(n) {
-    slides[currentSlide].classList.remove('active');
-    slides[n].classList.add('active');
-    currentSlide = n;
-}
-
-function nextSlide() {
-    currentSlide = (currentSlide + 1) % slides.length;
-    showSlide(currentSlide);
-}
-
-function prevSlide() {
-    currentSlide = (currentSlide - 1 + slides.length) % slides.length;
-    showSlide(currentSlide);
-}
-
-// Automatic slideshow (optional)
-setInterval(nextSlide, 3000); // Change slide every 3 seconds
+    function closeNavbar() {
+        let navbar = document.getElementById("navbarNav");
+        if (navbar.classList.contains("show")) {
+            navbar.classList.remove("show");
+        }
+    }
 </script>
 
-<section id="services">
-    <div class="container">
-        <div class="section-header">
-            <h2 class="section-title wow fadeInDown">Our Services</h2>
-            <p class="wow fadeInDown">Explore our range of therapy services designed to support your mental well-being.</p>
+<!-- Bootstrap CSS (Ensure you have Bootstrap linked) -->
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const navLinks = document.querySelectorAll(".nav-link");
+            const sections = document.querySelectorAll("section");
+            
+            function setActiveLink() {
+                let index = sections.length;
+                while(--index && window.scrollY + 50 < sections[index].offsetTop) {}
+                navLinks.forEach(link => link.classList.remove("active"));
+                navLinks[index].classList.add("active");
+            }
+            
+            setActiveLink();
+            window.addEventListener("scroll", setActiveLink);
+        });
+    </script>
+
+  <!--==========================
+    Intro Section
+  ============================-->
+ <section id="intro">
+        <div class="intro-content">
+            <h2>Revive <span>Mind Therapy</span><br>Transform Your Life!</h2>
+            <div>
+                <a href="#about" class="btn-get-started scrollto">Get Started</a>
+                <a href="#portfolio" class="btn-projects scrollto">Our Services</a>
+            </div>
+        </div>
+       
+    </section>
+
+    <script>
+        $(document).ready(function(){
+            $("#intro-carousel").owlCarousel({
+                items: 1,
+                loop: true,
+                autoplay: true,
+                autoplayTimeout: 4000,
+                animateOut: 'fadeOut'
+            });
+        });
+    </script>
+
+  <main id="main">
+
+    <!--==========================
+      About Section
+    ============================-->
+    <section id="about" class="wow fadeInUp">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 about-img">
+                    <img src="img/about.webp" alt="">
+                </div>
+                <div class="col-lg-6 content">
+                    <h2>Welcome to Revive Mind Therapy</h2>
+                    <h3>Empowering You to Achieve Mental Wellness and Balance</h3>
+                    <ul>
+                        <li><i class="ion-android-checkmark-circle"></i> Personalized therapy sessions tailored to your needs.</li>
+                        <li><i class="ion-android-checkmark-circle"></i> Proven techniques to enhance mental clarity and emotional well-being.</li>
+                        <li><i class="ion-android-checkmark-circle"></i> A safe and supportive space to explore your thoughts and emotions.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--==========================
+      Services Section
+    ============================-->
+   <section id="services" class="wow fadeInUp">
+      <div class="container">
+        <div class="section-header text-center">
+          <h2>Our Services</h2>
+          <p>At Revive Mind Therapy, we offer a range of services designed to promote mental well-being and emotional balance. Our professional team is dedicated to providing personalized care for each individual.</p>
         </div>
 
         <div class="row">
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="0ms">
-                <div class="service-box">
-                    <div class="service-icon">
-                        <i class="fas fa-user-friends"></i> </div>
-                    <div class="service-content">
-                        <h4 class="service-title">One-on-One Counseling</h4>
-                        <p class="service-description">Personalized sessions tailored to your unique challenges, providing a safe and supportive space.</p>
+
+          <div class="col-lg-6">
+            <div class="box wow fadeInLeft" data-wow-delay="0.1s">
+              <div class="icon"><i class="fa fa-lightbulb-o"></i></div>
+              <h4 class="title"><a href="">Cognitive Behavioral Therapy</a></h4>
+              <p class="description">A structured, goal-oriented therapy approach to help individuals identify and change negative thought patterns and behaviors.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="box wow fadeInRight" data-wow-delay="0.1s">
+              <div class="icon"><i class="fa fa-heart"></i></div>
+              <h4 class="title"><a href="">Mindfulness & Stress Reduction</a></h4>
+              <p class="description">Guided meditation and stress-reduction techniques to help manage anxiety, improve focus, and achieve inner peace.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="box wow fadeInLeft" data-wow-delay="0.2s">
+              <div class="icon"><i class="fa fa-comments"></i></div>
+              <h4 class="title"><a href="">Individual & Group Counseling</a></h4>
+              <p class="description">Providing a safe space for personal growth, emotional healing, and support through individual or group therapy sessions.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="box wow fadeInRight" data-wow-delay="0.2s">
+              <div class="icon"><i class="fa fa-leaf"></i></div>
+              <h4 class="title"><a href="">Holistic Wellness Programs</a></h4>
+              <p class="description">A comprehensive approach integrating nutrition, exercise, and therapy to enhance mental and physical well-being.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    </section><!-- #services -->
+
+    <!--==========================
+      Clients Section
+    ============================-->
+   <section class="section block bg-light text-center animate__animated animate__fadeInUp" id="expertise">
+        <div class="container py-5">
+            <h2 class="section-title">Areas of Expertise</h2>
+            <p class="section-desc">Discover our specialized areas in mental wellness.</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card shadow-sm p-4">
+                        <h4>Anxiety & Stress</h4>
+                        <p>Techniques to manage anxiety and reduce daily stress.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm p-4">
+                        <h4>Depression Support</h4>
+                        <p>Helping you navigate and overcome depressive thoughts.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm p-4">
+                        <h4>Self-Development</h4>
+                        <p>Boost confidence and personal growth strategies.</p>
                     </div>
                 </div>
             </div>
-
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="100ms">
-                <div class="service-box">
-                    <div class="service-icon">
-                        <i class="fas fa-heart"></i>
-                    </div>
-                    <div class="service-content">
-                        <h4 class="service-title">Stress Management</h4>
-                        <p class="service-description">Learn effective techniques to reduce stress, build resilience, and regain balance in your daily life.</p>
-                    </div>
+        </div>
+    </section>
+    
+ <!-- Your Approach to Therapy -->
+<section class="section block text-center animate__animated animate__fadeInUp" id="approach">
+    <div class="container py-5">
+        <h2 class="section-title">Our Approach to Therapy</h2>
+        <p class="section-desc">We use evidence-based and holistic techniques to support your mental well-being.</p>
+        
+        <div class="row mt-4">
+            <!-- Card 1 -->
+            <div class="col-md-4">
+                <div class="card shadow-lg p-4 animate__animated animate__zoomIn">
+                    <div class="icon mb-3"><i class="fas fa-user-friends fa-3x text-primary"></i></div>
+                    <h4 class="card-title">Client-Centered Counseling</h4>
+                    <p class="card-text">A supportive, non-judgmental space where you feel heard and valued.</p>
                 </div>
             </div>
-
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="200ms">
-                <div class="service-box">
-                    <div class="service-icon">
-                        <i class="fas fa-cloud-rain"></i>
-                    </div>
-                    <div class="service-content">
-                        <h4 class="service-title">Depression Therapy</h4>
-                        <p class="service-description">Compassionate support to help you navigate feelings of sadness, loneliness, and hopelessness.</p>
-                    </div>
+            
+            <!-- Card 2 -->
+            <div class="col-md-4">
+                <div class="card shadow-lg p-4 animate__animated animate__zoomIn delay-1s">
+                    <div class="icon mb-3"><i class="fas fa-brain fa-3x text-primary"></i></div>
+                    <h4 class="card-title">Mindfulness-Based Therapy</h4>
+                    <p class="card-text">A blend of cognitive therapy and mindfulness techniques to manage stress.</p>
                 </div>
             </div>
-
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
-                <div class="service-box">
-                    <div class="service-icon">
-                        <i class="fas fa-leaf"></i>
-                    </div>
-                    <div class="service-content">
-                        <h4 class="service-title">Mindfulness Training</h4>
-                        <p class="service-description">Cultivate self-awareness, focus, and inner peace with mindfulness techniques.</p>
-                    </div>
+            
+            <!-- Card 3 -->
+            <div class="col-md-4">
+                <div class="card shadow-lg p-4 animate__animated animate__zoomIn delay-2s">
+                    <div class="icon mb-3"><i class="fas fa-spa fa-3x text-primary"></i></div>
+                    <h4 class="card-title">Holistic Healing</h4>
+                    <p class="card-text">Integrating meditation, movement, and self-reflection for full-body healing.</p>
                 </div>
             </div>
+        </div>
 
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="400ms">
-                <div class="service-box">
-                    <div class="service-icon">
-                        <i class="fas fa-brain"></i>
-                    </div>
-                    <div class="service-content">
-                        <h4 class="service-title">Cognitive Behavioral Therapy</h4>
-                        <p class="service-description">Address negative thought patterns and behaviors with CBT techniques.</p>
-                    </div>
+        <div class="row mt-4">
+            <!-- Card 4 -->
+            <div class="col-md-4">
+                <div class="card shadow-lg p-4 animate__animated animate__zoomIn delay-3s">
+                    <div class="icon mb-3"><i class="fas fa-heart fa-3x text-primary"></i></div>
+                    <h4 class="card-title">Trauma-Informed Therapy</h4>
+                    <p class="card-text">Helping individuals heal from past experiences in a structured way.</p>
                 </div>
             </div>
+            
+            <!-- Card 5 -->
+            <div class="col-md-4">
+                <div class="card shadow-lg p-4 animate__animated animate__zoomIn delay-4s">
+                    <div class="icon mb-3"><i class="fas fa-lightbulb fa-3x text-primary"></i></div>
+                    <h4 class="card-title">Strength-Based Counseling</h4>
+                    <p class="card-text">Focusing on your strengths to build resilience and personal growth.</p>
+                </div>
+            </div>
+            
+            <!-- Card 6 -->
+            <div class="col-md-4">
+                <div class="card shadow-lg p-4 animate__animated animate__zoomIn delay-5s">
+                    <div class="icon mb-3"><i class="fas fa-cogs fa-3x text-primary"></i></div>
+                    <h4 class="card-title">Cognitive Behavioral Therapy (CBT)</h4>
+                    <p class="card-text">Recognizing and changing negative thought patterns for better well-being.</p>
+                </div>
+            </div>
+        </div>
 
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="500ms">
-                <div class="service-box">
-                    <div class="service-icon">
-                        <i class="fas fa-hand-holding-heart"></i>
-                    </div>
-                    <div class="service-content">
-                        <h4 class="service-title">Stress & Anxiety Management</h4>
-                        <p class="service-description">Tools and strategies to reduce stress and anxiety and improve your well-being.</p>
-                    </div>
+        <p class="mt-4">Our goal is to empower you with tools and guidance for a balanced and fulfilling life.</p>
+    </div>
+</section>
+
+    
+    <!-- Booking & Contact Information -->
+    <section class="section block bg-light text-center animate__animated animate__fadeInUp" id="contact">
+        <div class="container py-5">
+            <h2 class="section-title">Book a Session</h2>
+            <p class="section-desc">Contact us to schedule your therapy session.</p>
+            <button class="btn btn-success">Book Now</button>
+        </div>
+    </section>
+    
+    <!-- FAQ Section -->
+  <section class="section block bg-secondary text-white text-center animate__animated animate__fadeInUp" id="faq">
+    <div class="container py-5">
+        <h2 class="section-title">FAQ</h2>
+        <p class="section-desc">Find answers to common questions about therapy.</p>
+        
+        <div class="accordion" id="faqAccordion">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="faqHeading1">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse1" aria-expanded="true" aria-controls="faqCollapse1">
+                        How long are sessions?
+                    </button>
+                </h2>
+                <div id="faqCollapse1" class="accordion-collapse collapse show" aria-labelledby="faqHeading1" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">Each session lasts 50 minutes.</div>
+                </div>
+            </div>
+            
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="faqHeading2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
+                        Do you accept insurance?
+                    </button>
+                </h2>
+                <div id="faqCollapse2" class="accordion-collapse collapse" aria-labelledby="faqHeading2" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">Yes, we work with major providers.</div>
+                </div>
+            </div>
+            
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="faqHeading3">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse3" aria-expanded="false" aria-controls="faqCollapse3">
+                        What should I expect in my first session?
+                    </button>
+                </h2>
+                <div id="faqCollapse3" class="accordion-collapse collapse" aria-labelledby="faqHeading3" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">In your first session, we will discuss your goals and concerns to create a tailored approach.</div>
+                </div>
+            </div>
+            
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="faqHeading4">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse4" aria-expanded="false" aria-controls="faqCollapse4">
+                        Is therapy confidential?
+                    </button>
+                </h2>
+                <div id="faqCollapse4" class="accordion-collapse collapse" aria-labelledby="faqHeading4" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">Yes, confidentiality is maintained under professional and ethical guidelines.</div>
+                </div>
+            </div>
+            
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="faqHeading5">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse5" aria-expanded="false" aria-controls="faqCollapse5">
+                        How often should I attend therapy?
+                    </button>
+                </h2>
+                <div id="faqCollapse5" class="accordion-collapse collapse" aria-labelledby="faqHeading5" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">The frequency depends on your needs, typically weekly or bi-weekly sessions.</div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<section id="about" class="py-5">
-    <div class="container">
-        <div class="section-header">
-            <h2 class="section-title wow fadeInDown">About Us</h2>
-        </div>
-        <div class="row align-items-center">  <div class="col-lg-6 wow fadeInLeft" data-wow-duration="700ms" data-wow-delay="0ms">
-                <img class="img-fluid rounded shadow" src="images/4.webp" alt="About Us">
-            </div>
-            <div class="col-lg-6 wow fadeInRight" data-wow-duration="700ms" data-wow-delay="100ms">
-             
-                <p>At Revive Mental Therapy, we believe in the power of healing, self-discovery, and resilience.  Life can be overwhelming, and challenges may seem insurmountable, but you don’t have to face them alone. Our compassionate and experienced therapists are here to guide you on a journey toward emotional well-being, inner peace, and personal growth.</p>
 
-                <p>We provide a safe and supportive space where you can express yourself freely. Together, we will explore effective strategies to help you regain control, build confidence, and create a fulfilling life. Take the first step towards a healthier mind and a brighter future—because your well-being matters. Let’s revive the best version of you!.</p>
-
-                <h3>Our Expertise</h3>
-                <ul class="list-unstyled">
-                    <li><i class="fas fa-check-circle me-2"></i> Cognitive Behavioral Therapy (CBT)</li>
-                    <li><i class="fas fa-check-circle me-2"></i> Mindfulness & Meditation Coaching</li>
-                    <li><i class="fas fa-check-circle me-2"></i> Stress & Anxiety Management</li>
-                    <li><i class="fas fa-check-circle me-2"></i> Depression Therapy</li>
-                    <li><i class="fas fa-check-circle me-2"></i> Trauma & PTSD Counseling</li>
-                    <li><i class="fas fa-check-circle me-2"></i> Emotional Intelligence Training</li>
-                    <li><i class="fas fa-check-circle me-2"></i> Work-Life Balance Coaching</li>
-                    <li><i class="fas fa-check-circle me-2"></i> Relationship & Couples Therapy</li>
-                    <li><i class="fas fa-check-circle me-2"></i> Hypnotherapy</li>
-                    <li><i class="fas fa-check-circle me-2"></i> Anger Management Therapy</li>
-                    <li><i class="fas fa-check-circle me-2"></i> Self-Esteem & Confidence Building</li>
-                    <li><i class="fas fa-check-circle me-2"></i> Holistic Healing Sessions</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="hero-action" class="py-5 bg-primary">  <div class="container text-center">
-        <div class="row justify-content-center">
-            <div class="col-lg-8">
-                <h2 class="hero-title wow fadeInUp text-white" data-wow-duration="700ms" data-wow-delay="0ms">Empower Your Mind, Transform Your Life</h2>
-                <p class="hero-description wow fadeInUp text-white-50" data-wow-duration="700ms" data-wow-delay="100ms">Experience the power of therapy to overcome stress, anxiety, and emotional challenges.</p>
-                <a href="#contact" class="btn btn-light btn-lg wow fadeInUp" data-wow-duration="700ms" data-wow-delay="200ms">Start Your Journey Today!</a>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="our-approach" class="py-5">
-    <div class="container">
-        <div class="section-header">
-            <h2 class="section-title wow fadeInDown">Our Therapeutic Approach</h2>
-            <p class="wow fadeInDown">Guiding you towards healing and self-discovery.</p>
-        </div>
-        <div class="row">
-            <div class="col-lg-6 wow fadeInLeft" data-wow-duration="700ms" data-wow-delay="0ms">
-                <p>We believe in a holistic and personalized approach to therapy. We combine evidence-based techniques with compassionate care to create a safe and supportive environment for your growth and healing.</p>
-                <p>Our therapists are trained in a variety of modalities, including Cognitive Behavioral Therapy (CBT), Mindfulness-Based Therapy, and more. We tailor our approach to meet your unique needs and goals.</p>
-            </div>
-            <div class="col-lg-6 wow fadeInRight" data-wow-duration="700ms" data-wow-delay="100ms">
-                <p>We are committed to empowering you with the tools and strategies you need to overcome challenges, build resilience, and live a more fulfilling life.</p>
-                <p>Your well-being is our priority. We are here to support you every step of the way.</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="call-to-action" class="py-5 bg-light">
-    <div class="container text-center">
-        <div class="row justify-content-center">
-            <div class="col-lg-8">
-                <h2 class="wow fadeInUp" data-wow-duration="700ms" data-wow-delay="0ms">Ready to Start Your Journey?</h2>
-                <a href="#contact" class="btn btn-primary btn-lg wow fadeInUp" data-wow-duration="700ms" data-wow-delay="100ms">Contact Us</a>
-            </div>
-        </div>
-    </div>
-<section id="blog-section">
-
-<div class="container">
-
-<div class="section-header">
-
-<h2 class="section-title wow fadeInDown">Latest Blog Posts</h2>
-
-<p class="wow fadeInDown">Stay updated with our latest insights, trends, and stories from our blog.</p>
-
-</div>
-
-
-
-<div class="row text-center" id="blog-posts">
-
-<!-- Blog posts will be injected here -->
-
-</div>
-
-</div>
-
-</section>
-
-
-
-<!-- Modal for full blog content -->
-
-<div id="blog-modal" class="modal">
-
-<div class="modal-content">
-
-<span class="close">&times;</span>
-
-<h2 id="modal-title"></h2>
-
-<img id="modal-image" src="" class="modal-image" alt="">
-
-<p id="modal-content"></p>
-
-<a id="modal-link" href="#" target="_blank">Read full article</a>
-
-</div>
-
-</div>
-
-
+    
+    <script>
+        function toggleFAQ() {
+            $('#faq-content').toggleClass('show');
+        }
+    </script>
 
   
-<section id="contact">
-    <div class="container">
-        <div class="section-header">
-            <h2 class="section-title wow fadeInDown">Contact Us</h2>
-            <p class="wow fadeInDown">Get in touch with us for any inquiries or to schedule an appointment.</p>
-        </div>
+    <!--==========================
+      Contact Section
+    ============================-->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact Us</h2>
+                <p>We are here to assist you with your mental well-being. Reach out to us for any queries or bookings.</p>
+            </div>
 
-        <div class="row">
-            <div class="col-lg-4 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="0ms">
-                <div class="contact-info">
-                    <h3>Contact Information</h3>
-                    <address>
-                        <strong>Revive Mind Therapy</strong><br>
-                        1131 Keele St Office A-4, Vaughan, ON L4K 0G7<br>
-                        Canada<br>;;;;;;;/;;tdf ';;;;;;;;; 00b n        nhy'y[pg b bnht                </div>
-            </div> z 
-
- von 
-"[ 6 y
-V \I 5[-20[
-          ======  <div class="col-lg-8 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="100ms">hfvb;please let ,
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <input type="email" name="email" class="form-control" placeholder="Your Email" required>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" name="subject" class="form-control" placeholder="Subject">
-                        </div>
-                        <div class="form-group">
-                            <textarea name="message" class="form-control" rows="5" placeholder="Your Message" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-block">Send Message</button>
-                    </form>
+            <div class="row contact-info">
+                <div class="col-md-4">
+                    <div>
+                        <i class="fa fa-map-marker-alt"></i>
+                        <h3>Address</h3>
+                        <p>123 Wellness Street, NY 10001, USA</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <h3>Phone</h3>
+                        <p><a href="tel:+15551234567">+1 555 123 4567</a></p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div>
+                        <i class="fa fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p><a href="mailto:info@mindtherapy.com">info@mindtherapy.com</a></p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
 
-<footer id="footer" class="py-4">
-    <div class="container text-center">
-        <div class="social-icons">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-google-plus"></i></a>
-            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-            <a href="#"><i class="fab fa-youtube"></i></a>
-            <a href="#"><i class="fab fa-github"></i></a>
+        <div class="container mt-5">
+            <div class="form">
+                <form action="#" method="post" role="form" class="contactForm">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                        </div>
+                    </div>
+                    <div class="mt-3">
+                        <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="mt-3">
+                        <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                    </div>
+                    <div class="text-center mt-4">
+                        <button type="submit">Send Message</button>
+                    </div>
+                </form>
+            </div>
         </div>
-        <p class="mt-3">&copy; 2024 Revive Mind Therapy. All rights reserved.</p> </div>
+    </section>
+
+  </main>
+
+  <!--==========================
+    Footer
+  ============================-->
+<footer id="footer" class="bg-light py-4">
+    <div class="container text-center">
+        <div class="copyright text-dark">
+            &copy; <span id="year"></span> <strong>Revive Mind Therapy</strong>. All Rights Reserved.
+        </div>
+        <div class="credits text-muted">
+            Designed with ❤️ by <a href="https://yourwebsite.com" class="text-decoration-none">Your Company</a>
+        </div>
+    </div>
 </footer>
 
-    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-        crossorigin="anonymous"></script>
+<!-- JavaScript to Auto-Update Year -->
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 
-    <script src="js/jquery.prettyPhoto.js"></script>
-    <script src="js/jquery.isotope.min.js"></script>
-    <script src="js/jquery.inview.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script type="text/javascript" src="js/jquery.ba-cond.min.js"></script>
-    <script type="text/javascript" src="js/jquery.slitslider.js"></script>
-    <script type="text/javascript" src="js/slitslider-custom.js"></script>
-    <script src="js/custom-scripts.js"></script>
-    <script src="script.js"></script> </body>
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/magnific-popup/magnific-popup.min.js"></script>
+  <script src="lib/sticky/sticky.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8HeI8o-c1NppZA-92oYlXakhDPYR7XMY"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
 </body>
 </html>
