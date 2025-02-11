@@ -1127,3 +1127,581 @@ img.logo {
     height: 104px !important;
     margin-top: -18px;
 }
+
+/* style.css */
+
+/* General Styles */
+body {
+    font-family: sans-serif; /* Choose your font */
+}
+
+/* Header and Navigation */
+#main-header { /* Updated ID */
+    background-color: #f8f9fa; /* Example background color */
+    padding: 10px 0; /* Adjust padding as needed */
+}
+
+.navbar {
+    border: none;
+    margin-bottom: 0;
+    transition: background-color 0.3s ease; /* Add transition for background */
+}
+
+.navbar.scrolled { /* Class added by JS on scroll */
+    background-color: rgba(248, 249, 250, 0.9); /* Slightly darker background on scroll */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow on scroll */
+}
+
+.navbar-brand .main-logo { /* Updated class name */
+    max-width: 150px; /* Adjust as needed */
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.navbar-brand .main-logo:hover {
+    transform: scale(1.1);
+}
+
+.navbar-nav .nav-link { /* Updated class name */
+    color: #333;
+    font-weight: 500;
+    padding: 10px 15px;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: #007bff; /* Highlight color */
+}
+
+.book-btn { /* Style for the "Book Appointment" button */
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 10px; /* Add some spacing */
+    transition: background-color 0.3s ease;
+}
+
+.book-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Responsive Styles (Example - adjust as needed) */
+@media (max-width: 992px) { /* Example breakpoint */
+    .navbar-nav {
+        text-align: center; /* Center the navigation items on smaller screens */
+    }
+}
+
+    #blog-section {
+        padding: 50px 0;
+    }
+    .blog-card {
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        transition: transform 0.3s ease-in-out;
+        cursor: pointer;
+    }
+    .blog-card:hover {
+        transform: translateY(-5px);
+    }
+    .blog-image {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    .blog-title {
+        font-size: 18px;
+        margin: 15px 0 10px;
+    }
+    .blog-description {
+        font-size: 14px;
+        color: #666;
+    }
+
+    /* Modal Styles */
+    .modal {
+        display: none; /* Hide by default */
+        position: fixed;
+        z-index: 1000;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .modal-content {
+        background: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        max-width: 800px;
+        width: 90%;
+        text-align: center;
+        position: relative;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .modal-image {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+        margin-bottom: 15px;
+    }
+
+    .close {
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    #modal-content {
+        text-align: left;
+        margin-bottom: 15px;
+    }
+
+    #modal-link {
+        display: inline-block;
+        padding: 10px 20px;
+        background: #007bff;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+
+/* ... (Your existing CSS styles) ... */
+
+/* Example: Style the slider captions */
+.slide-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; /* Or your preferred color */
+    text-align: center;
+}
+
+.slide-caption h2 {
+    font-size: 3em; /* Adjust as needed */
+}
+
+/* ... (Rest of your CSS styles) ... */
+
+
+/* style.css */
+
+/* Services Section */
+#services {
+    padding: 60px 0; /* Adjust as needed */
+    background-color: #f8f9fa; /* Example background color */
+}
+
+.section-header {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2.5em; /* Adjust as needed */
+    margin-bottom: 15px;
+}
+
+.service-box {
+    text-align: center;
+    padding: 30px;
+    border-radius: 8px;
+    background-color: white; /* Example background color for the boxes */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+    height: 100%; /* Make boxes equal height */
+}
+
+.service-box:hover {
+    transform: translateY(-5px); /* Move up slightly on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Slightly larger shadow on hover */
+}
+
+.service-icon {
+    font-size: 3em; /* Adjust icon size */
+    color: #007bff; /* Example icon color */
+    margin-bottom: 20px;
+}
+
+.service-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.service-description {
+    color: #555; /* Slightly darker text color */
+}
+
+/* ... (rest of your CSS) */
+
+/* style.css */
+/* Hero Slider */
+#hero-slider {
+    position: relative; /* Needed for absolute positioning of captions and controls */
+    overflow: hidden; /* Hide content that overflows the slider */
+}
+
+.swiper {
+    height: 600px; /* Adjust as needed */
+}
+
+.swiper-slide {
+    background-size: cover;
+    background-position: center;
+}
+
+.slide-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex; /* Use flexbox for vertical centering */
+    align-items: center; /* Vertically center the content */
+    justify-content: center; /* Horizontally center the content */
+}
+
+.slide-caption {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    max-width: 800px; /* Adjust as needed */
+    margin: 0 auto; /* Center the caption horizontally */
+}
+
+.slide-caption h2 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.slide-caption p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.get-started {
+    /* Style your button */
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Swiper Controls (optional) */
+.swiper-button-prev,
+.swiper-button-next {
+    color: white; /* Customize control color */
+}
+
+.swiper-pagination {
+    bottom: 20px !important; /* Adjust position */
+}
+
+/* style.css */
+
+/* About Section */
+#about {
+    padding: 60px 0; /* Adjust as needed */
+    background-color: #f8f9fa; /* Example background color */
+}
+
+.section-header {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2.5em; /* Adjust as needed */
+    margin-bottom: 15px;
+}
+
+#about img {
+    max-width: 100%; /* Make image responsive */
+    height: auto;
+}
+
+#about h3 {
+    margin-top: 20px;
+    font-size: 1.8em; /* Adjust as needed */
+    color: #333; /* Example heading color */
+}
+
+#about p {
+    line-height: 1.6; /* Improve readability */
+    margin-bottom: 15px;
+    color: #555; /* Slightly darker text color */
+}
+
+.list-unstyled { /* Style the list */
+    padding-left: 0;
+    list-style: none; /* Remove bullet points */
+}
+
+.list-unstyled li {
+    margin-bottom: 10px;
+}
+
+.list-unstyled li i {
+    color: #007bff; /* Example icon color */
+    margin-right: 10px;
+}
+
+/* ... (rest of your CSS) */
+.section-title,
+#about h3,
+.list-unstyled li i,
+.some-other-element, /* Add more selectors here */
+.another-element {
+    color: #26ABA3 !important;
+}
+
+/* style.css */
+
+/* Hero Action Section */
+#hero-action {
+    background-color: #f8f9fa; /* Example background color */
+    padding: 80px 0; /* Adjust padding as needed */
+}
+
+.hero-title {
+    font-size: 2.5em; /* Adjust as needed */
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.hero-description {
+    font-size: 1.2em; /* Adjust as needed */
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #555; /* Example text color */
+}
+
+.btn-primary {
+    /* ... (your existing button styles) ... */
+    font-size: 1.2em; /* Adjust button size */
+    padding: 15px 30px; /* Adjust button padding */
+}
+
+/* Responsive adjustments (example) */
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 2em;
+    }
+
+    .hero-description {
+        font-size: 1em;
+    }
+}
+
+/* ... (rest of your CSS) */
+
+/* style.css */
+#call-to-action {
+    padding: 80px 0;
+    background-color: #26ABA3; /* Example background color */
+    color: white;
+}
+
+#call-to-action h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#call-to-action p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    /* ... your button styles ... */
+}
+
+/* ... other styles ... */
+
+/* style.css */
+#our-approach {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+}
+
+#our-approach p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+/* ... other styles ... */
+
+/* style.css */
+
+/* Contact Section */
+#contact {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+}
+
+.section-header {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+.contact-info h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.contact-info address {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.contact-info a {
+    color: #007bff; /* Example link color */
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.contact-info .list-unstyled li {
+    margin-bottom: 10px;
+}
+
+.contact-info .list-unstyled li i {
+    margin-right: 10px;
+}
+
+.contact-form h3 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    border-radius: 5px;
+}
+
+.btn-primary {
+    /* ... your button styles ... */
+    width: 100%; /* Make button full width */
+}
+
+/* Footer */
+#footer {
+    background-color: #333; /* Example footer background color */
+    color: white;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center; /* Center the icons */
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 1.5em; /* Adjust icon size */
+    transition: color 0.3s ease; /* Smooth transition */
+}
+
+.social-icons a:hover {
+    color: #26ABA3; /* Example hover color */
+}
+
+/* ... other styles ... */
+
+/* style.css */
+/* ... (Existing styles) ... */
+
+/* About Section */
+#about {
+    /* ... (Existing styles) ... */
+}
+
+#about img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow to image */
+}
+
+/* Hero Action Section */
+#hero-action {
+    /* ... (Existing styles) ... */
+}
+
+/* Our Approach Section */
+#our-approach {
+    /* ... (Existing styles) ... */
+}
+
+/* Call to Action Section */
+#call-to-action {
+    /* ... (Existing styles) ... */
+}
+
+/* Blog Section */
+#blog {
+    /* ... (Existing styles) ... */
+}
+
+#blog-posts {
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow wrapping to new rows */
+    justify-content: center; /* Center horizontally */
+}
+
+.blog-post {
+    width: 32%; /* Adjust width for desired number of columns */
+    margin: 1%; /* Spacing between posts */
+    border: 1px solid #eee;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blog-post:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.blog-post img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.blog-post h3 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.blog-post p {
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.blog-post a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* ... (Rest of your CSS) ... */
